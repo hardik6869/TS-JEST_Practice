@@ -7,7 +7,7 @@ export class Utils {
     }
     return parse(url, true);
   }
-
+  /* istanbul ignore next */
   public static toUpperCase(args: string): string {
     return args.toUpperCase();
   }
