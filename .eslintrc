@@ -6,9 +6,10 @@
       "jsx": true
     }
   },
-  "extends": ["eslint:recommended"],
+  "extends": ["eslint:recommended", "eslint-config-prettier"],
   "rules": {
-    "strict": ["error", "never"]
+    "strict": ["error", "never"],
+    "no-extra-semi": "off"
   },
   "env": {
     "browser": true
